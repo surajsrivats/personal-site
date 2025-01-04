@@ -1,21 +1,18 @@
 # Personal Website
 
-My personal website and blog built with HTML and CSS.
+My personal website and blog built with HTML.
 
 ## Structure
 
 - `index.html` - Main landing page
 - `blog/` - Blog section
-- `styles.css` - Styling for the entire site
 
 ## Development
 
 To run locally, simply serve the files using any HTTP server. For example:
 
 ```bash
-python -m http.server
-# or
-npx serve
+npx serve -l 3005
 ```
 
-Then visit `http://localhost:8000` in your browser.
+Then visit `http://localhost:3005` in your browser.
